@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 141.54 59.78">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-family: Inter-SemiBold, Inter;
+        font-size: 16.35px;
+        font-variation-settings: 'opsz' 14, 'wght' 600;
+        font-weight: 600;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        fill: #00eabd;
+      }
+
+      .cls-4 {
+        fill: url(#Degradado_sin_nombre_314);
+      }
+
+      .cls-5 {
+        fill: url(#Degradado_sin_nombre_314-2);
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_314" data-name="Degradado sin nombre 314" x1="0" y1="28.67" x2="24.33" y2="28.67" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00a684"/>
+      <stop offset=".22" stop-color="#009886"/>
+      <stop offset=".64" stop-color="#00758b"/>
+      <stop offset="1" stop-color="#005391"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_314-2" data-name="Degradado sin nombre 314" x1="24.12" y1="31.1" x2="48.45" y2="31.1" xlink:href="#Degradado_sin_nombre_314"/>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <text class="cls-1" transform="translate(54.26 19.31)"><tspan x="0" y="0">Soluciones</tspan><tspan x="0" y="15">In</tspan><tspan class="cls-7" x="14.53" y="15">t</tspan><tspan class="cls-2" x="20.14" y="15">egrales</tspan><tspan x="0" y="30">Si</tspan><tspan class="cls-8" x="14.91" y="30">l</tspan><tspan class="cls-6" x="19.27" y="30">v</tspan><tspan x="28.78" y="30">a</tspan></text>
+      <g>
+        <path class="cls-4" d="m13.82,17.99L0,36.74h0c5.97,4.4,14.38,3.13,18.79-2.84l5.54-7.51-10.51-8.39Z"/>
+        <path class="cls-3" d="m19.01,33.56s.95-6.66-1.57-10.4c-2.52-3.74-9.74-6.99-9.74-6.99L19.8,0l4,2.95c6.36,4.69,7.72,13.65,3.03,20.01l-7.81,10.6Z"/>
+        <path class="cls-5" d="m34.62,41.79l13.82-18.75h0c-5.97-4.4-14.38-3.13-18.79,2.84l-5.54,7.51,10.51,8.39Z"/>
+        <path class="cls-3" d="m29.43,26.22s-.95,6.66,1.57,10.4c2.52,3.74,9.74,6.99,9.74,6.99l-12.1,16.16-4-2.95c-6.36-4.69-7.72-13.65-3.03-20.01l7.81-10.6Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
