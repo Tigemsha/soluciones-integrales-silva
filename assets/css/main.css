@@ -2354,7 +2354,7 @@ section,
     background-color: var(--surface-color);
     padding: 10px 30px;
     border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .service-details .services-list a {
@@ -2378,27 +2378,35 @@ section,
 }
 
 .service-details .services-img {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .service-details h3 {
     font-size: 26px;
     font-weight: 700;
+    margin-bottom: 15px;
 }
 
 .service-details h4 {
     font-size: 20px;
     font-weight: 700;
+    margin-bottom: 15px;
 }
 
 .service-details p {
     font-size: 15px;
+    line-height: 30px;
+    margin: 20px 0 35px 0;
 }
 
 .service-details ul {
     list-style: none;
     padding: 0;
+    margin: 10px 0 20px 0;
     font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
 }
 
 .service-details ul li {
@@ -2413,7 +2421,26 @@ section,
     color: var(--accent-color);
 }
 
-#service-details{
+.services-list p {
+    margin-bottom: 20px !important;
+}
+
+.details-service-steps ul {
+    padding-right: 10px;
+}
+
+.details-service-steps ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+
+.details-main-section {
+    padding: 30px 0 70px 0;
+}
+
+#service-details {
     padding: 10px 20px;
 }
 
@@ -2425,7 +2452,6 @@ section,
 .starter-section {
     /* Add your styles here */
 }
-
 
 /*--------------------------------------------------------------
 # Widgets
