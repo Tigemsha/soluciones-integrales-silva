@@ -140,7 +140,8 @@
             <div class="icon flex-shrink-0"><i class="bi bi-hand-thumbs-up"></i></div>
             <div>
               <h4 class="title">Respeto</h4>
-              <p class="description">Escuchamos, cuidamos cada detalle y tratamos a tu proyecto como si fuera propio.</p>
+              <p class="description">Escuchamos, cuidamos cada detalle y tratamos a tu proyecto como si fuera propio.
+              </p>
             </div>
           </div>
           <!-- End Service Item -->
@@ -627,7 +628,7 @@
                 <h3>¿Qué tan accesible es instalar un aire acondicionado en mi hogar?</h3>
                 <div class="faq-content">
                   <p>
-                    Contrario a la creencia popular, los 120V de corriente alterna en tu hogar son suficientes para
+                    Contrario a la creencia popular, los 127V de corriente alterna en tu hogar son suficientes para
                     operar equipos de alta eficiencia, sin necesidad de servicios eléctricos adicionales. Esto permite
                     instalaciones accesibles y de alto rendimiento.
                   </p>
@@ -692,20 +693,50 @@
     </section><!-- /Faq Section -->
 
     <!-- Contact Section -->
+
     <section id="contact" class="contact section">
 
       <!-- Section Title -->
       <div class="container section-title text-center" data-aos="fade-up">
-        <h2>¿Necesitas una cotización rápida?</h2>
+        <h2>¿Necesitas expresar más detalles para tu cotización?</h2>
         <p>
-          Escríbenos por <strong>WhatsApp</strong> y uno de nuestros especialistas te
-          atenderá de inmediato para guiarte paso a paso en tu solicitud.
+          Puedes escribirnos por correo electrónico y con gusto revisaremos tu solicitud a detalle para ofrecerte una
+          propuesta adecuada a tus necesidades.
         </p>
       </div><!-- End Section Title -->
 
-      <div class="container text-center" data-aos="fade-up" data-aos-delay="200">
-        <a href="https://wa.link/1nvftr" class="read-more"><span> <i class="bi bi-whatsapp me-2 fs-4"></i>
-            Enviar mensaje</span><i class="bi bi-arrow-right"></i></a>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <form id="contact-form" class="contact-form" data-aos="fade-up" data-aos-delay="300"
+          action="https://formspree.io/f/mldbwwpn" method="POST">
+          <div class="row gy-4">
+
+            <div class="col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="Nombre" required>
+            </div>
+
+            <div class="col-md-6">
+              <input type="email" name="email" class="form-control" placeholder="Tu correo electrónico" required>
+            </div>
+
+            <div class="col-md-12">
+              <input type="text" name="subject" class="form-control" placeholder="Asunto" required>
+            </div>
+
+            <div class="col-md-12">
+              <textarea name="message" class="form-control" rows="6" placeholder="Mensaje" required></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+              <div class="loading" style="display:none;">Loading</div>
+              <div class="error-message" style="display:none;color:red;"></div>
+              <div class="sent-message" style="display:none;color:green;">Your message has been sent. Thank you!</div>
+              <button id="send-button" class="read-more" type="submit">Enviar correo</button>
+            </div>
+
+          </div>
+        </form>
+        <!-- End Contact Form -->
+
       </div>
 
     </section><!-- /Contact Section -->
@@ -723,14 +754,13 @@
       <div class="footer-contact mb-3">
         <p class="mb-1">Hidalgo, México</p>
         <p class="mb-1"><strong>Tel:</strong> +52 55 2201 0323</p>
-        <p><strong>Email:</strong> contacto-sis@gmail.com</p>
+        <p><strong>Email:</strong> info.silvasolucionesintegrales@gmail.com</p>
       </div>
 
       <div class="social-links d-flex justify-content-center gap-3 mb-3">
-        <!-- <a href="#"><i class="bi bi-facebook fs-5"></i></a>
-        <a href="#"><i class="bi bi-instagram fs-5"></i></a>
-        <a href="#"><i class="bi bi-linkedin fs-5"></i></a> -->
-        <!-- <a href="https://wa.link/1nvftr"><i class="bi bi-whatsapp fs-5"></i></a> -->
+        <!-- <a href="#"><i class="bi bi-facebook fs-5"></i></a> -->
+        <a href="https://www.instagram.com/sissilva6?igsh=djRnNGJ3anp0eHF5"><i class="bi bi-instagram fs-5"></i></a>
+        <a href="https://wa.link/1nvftr"><i class="bi bi-whatsapp fs-5"></i></a>
       </div>
 
       <div class="copyright mt-3">
@@ -751,7 +781,7 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
